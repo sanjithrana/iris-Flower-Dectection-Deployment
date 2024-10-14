@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>iris</title>
+</head>
+<body bgcolor="#d4a3ae">
+
+    <center>
+    <h1>IRIS FLOWER DETECTION</h1><br>
+
+    <form method ="post" , action="{{url_for('predict')}}">
+        <b>First Value : <input type="text",name='a',placeholder = 'Enter 1'><br><br>
+         second Value : <input type="text",name='b',placeholder = 'Enter 2'><br><br>
+         Third Value : <input type="text",name='c',placeholder = 'Enter 3'><br><br>
+         Fourt Value : <input type="text",name='d',placeholder = 'Enter 4'><br><br>
+        </b>
+        <input type="submit" , value="predict">
+    </form>
+
+    <img src="image_downl.jpeg" alt="FLOWER">
+    
+    </center>
+
+</body>
+</html>
